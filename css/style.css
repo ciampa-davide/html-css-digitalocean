@@ -1,0 +1,15 @@
+.header_top{
+  min-height: 80px;
+  line-height: 80px;
+
+}
+
+.header_top img{
+  max-height: 20px;
+}
+
+.btn_white{
+  background-color: white;
+  color: #0067FF;
+  border-color: #0067FF;
+}
