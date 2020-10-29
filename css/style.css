@@ -45,22 +45,23 @@ h1{
 
 .header_bottom{
 background-color: #0067FF;
-min-height: 500px;
+min-height: 350px;
 line-height: 20px;
 }
 .header_bottom p{
-  font-size: 22px;
+  line-height: 30px;
+  font-size: 24px;
 }
 .email{
   text-align: center;
   background-color: white;
   border-radius: 2%;
-  margin: 5px auto;
+  margin: 20px auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.email h3{
+.email > h3{
   font-weight: bold;
   margin-top: 5px;
   margin-bottom:5px;
@@ -79,4 +80,26 @@ line-height: 20px;
   width: 100%;
   border:0;
   margin-bottom: 10px;
+}
+.list_logo{
+  background: #F3F5F9;
+}
+.list_logo h3{
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-top:0;
+  padding-top: 15px;
+
+}
+
+.list_logo img{
+  max-height: 80px;
+  max-width: 100px;
+  text-align: center;
+}
+.list_logo > a{
+  color:#0067FF;
+  text-align: center;
 }
