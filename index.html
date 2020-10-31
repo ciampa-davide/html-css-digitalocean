@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Digital Ocean</title>
   </head>
@@ -35,9 +36,9 @@
                 <li><a href="#">Login</a></li>
                 <li><button type="button" class="btn btn_white">Sign Up</button>
               </ul>
+            </div>
           </div>
         </div>
-      </div>
       </div>
       <!-- /logo con menu(hamburger & liste) -->
       <!-- jumb -->
@@ -128,6 +129,9 @@
         <div class="container">
           <h2>Designed for developers</h2>
           <p>Build more and spend less time managing your infrastrure with our easy-to-use control panel and API</p>
+          <div class="previous">
+            <i class="fas fa-chevron-left"></i>
+          </div>
           <div class="container_60">
             <img src="img/scree-one.webp" alt="">
             <p>Create computer servers in 55 seconds or less</p>
@@ -139,6 +143,9 @@
                 <li class="circle"></li>
               </ul>
             </div>
+          </div>
+          <div class="next">
+            <i class="fas fa-chevron-right"></i>
           </div>
         </div>
       </div>
@@ -253,13 +260,19 @@
 
       <div id="main_development">
         <h2>Development teams love DigitalOcean</h2>
-          <div class="container_40 text-center">
-            <img src="img/rockerlogo.svg" alt="">
-            <p>"we have been able to make scaling the technical infrastracture of pur businesses cost effective and efficient"</p>
-            <p>Rick O'Toole</p>
-            <p>co-founder and CTO</p>
-            <a href="">Read story ></a>
+          <div class="previous">
+            <i class="fas fa-chevron-left"></i>
           </div>
+            <div class="container_40 text-center">
+              <img src="img/rockerlogo.svg" alt="">
+              <p>"we have been able to make scaling the technical infrastracture of pur businesses cost effective and efficient"</p>
+              <p>Rick O'Toole</p>
+              <p>co-founder and CTO</p>
+              <a href="">Read story ></a>
+            </div>
+            <div class="next">
+              <i class="fas fa-chevron-right"></i>
+            </div>
           <div>
             <ul class="list-inline text-center">
               <li class="circle circle_blue"></li>
@@ -272,7 +285,7 @@
       <div id="main_create">
         <div class="container text-center">
           <h2>Get started now</h2>
-          <button type="button" class="btn btn-default">Default</button>
+          <button type="button" class="btn btn_white">Create your account</button>
         </div>
 
       </div>
@@ -283,7 +296,76 @@
     </main>
 
     <footer>
-
+    <div class="footer_body">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4">
+          <img src="img/mini-logo.svg" alt="">
+          <p>© 2018 DigitalOcean, LLC. All rights reserved.</p>
+          <p>Proudly made in NY</p>
+          <ul class="list-inline" >
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2">
+          <h5>Company</h5>
+          <ul class="list_link" >
+            <li><a href="">About</a></li>
+            <li><a href="">Leadership</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Carrers</a></li>
+            <li><a href="">Partner Network</a></li>
+            <li><a href="">Referral Program</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="">Legal & security</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2">
+          <h5>Products</h5>
+          <ul class="list_link" >
+            <li><a href="">Droplets</a></li>
+            <li><a href="">Spaces</a></li>
+            <li><a href="">Kubernetes</a></li>
+            <li><a href="">Load balance</a></li>
+            <li><a href="">Block storage</a></li>
+            <li><a href="">Tool & integrations</a></li>
+            <li><a href="">One-Click Apps</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Documentation</a></li>
+            <li><a href="">Release note</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2">
+          <h5>Community</h5>
+          <ul class="list_link" >
+            <li><a href="">Tutorials</a></li>
+            <li><a href="">Meetups</a></li>
+            <li><a href="">Q&A</a></li>
+            <li><a href="">Write for Donations</a></li>
+            <li><a href="">Droplets For Demos</a></li>
+            <li><a href="">Hatch</a></li>
+            <li><a href="">Shop Swag</a></li>
+            <li><a href="">Research Program</a></li>
+            <li><a href="">Currents Research</a></li>
+            <li><a href="">Open source</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2">
+          <h5>Support</h5>
+          <ul class="list_link" >
+            <li><a href="">Contact Support</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Network Status</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
     </footer>
   </body>
 </html>
